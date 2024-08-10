@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "./logo";
-import { navLinks } from "../../../constants";
 import Link from "next/link";
 import { Search, Sun } from "lucide-react";
+import { navLinks } from "../../../../../constants";
+import Logo from "@/components/shared/logo";
 
 function Navbar() {
   return (

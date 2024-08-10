@@ -1,11 +1,11 @@
-import Navbar from "@/components/shared/navbar";
 import { Button } from "@/components/ui/button";
 import React from "react";
+import HomePage from "./(root)/(home)/page";
 
 function Page() {
   return (
     <div>
-      <Navbar />
+      <HomePage />
     </div>
   );
 }
